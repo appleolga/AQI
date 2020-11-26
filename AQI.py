@@ -24,7 +24,7 @@ data['color'] = ''
 # obtaining data from API
 for id in data.index:
     station_data = json.loads(requests.get(
-        'https://api.waqi.info/feed/@' + str(id) + '').text)['data']
+        'https://api.waqi.info/feed/@' + str(id) + '/?token=').text)['data']
     data.loc[id, 'aqi'] = station_data['aqi']
     data.loc[id, 'Station name'] = re.match(r'(.*)(?:, K.*)', station_data['city']['name']).group(1)
     if int(station_data['aqi']) <= 50:
