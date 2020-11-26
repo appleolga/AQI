@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.0.1.min.js" integrity="sha384-JpP8FXbgAZLkfur7LiK3j9AGBhHNIvF742meBJrjO2ShJDhCG2I1uVvW+0DUtrmc" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="9d784779-aa05-44c9-add7-16778d0ba744" data-root-id="9246"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="9382">
+          {"6ff2c241-91c2-41a6-a13c-70915136d120":{"roots":{"references":[{"attributes":{"overlay":{"id":"9270"}},"id":"9266","type":"BoxZoomTool"},{"attributes":{},"id":"9290","type":"CategoricalTickFormatter"},{"attributes":{},"id":"9265","type":"WheelZoomTool"},{"attributes":{"data_source":{"id":"9245"},"glyph":{"id":"9279"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"9280"},"selection_glyph":null,"view":{"id":"9282"}},"id":"9281","type":"GlyphRenderer"},{"attributes":{},"id":"9268","type":"ResetTool"},{"attributes":{},"id":"9253","type":"CategoricalScale"},{"attributes":{"source":{"id":"9245"}},"id":"9282","type":"CDSView"},{"attributes":{},"id":"9261","type":"BasicTicker"},{"attributes":{},"id":"9258","type":"CategoricalTicker"},{"attributes":{},"id":"9288","type":"BasicTickFormatter"},{"attributes":{},"id":"9292","type":"UnionRenderers"},{"attributes":{},"id":"9255","type":"LinearScale"},{"attributes":{},"id":"9267","type":"SaveTool"},{"attributes":{"source":{"id":"9245"}},"id":"9285","type":"CDSView"},{"attributes":{"text_align":"center","text_font_size":{"value":"30pt"},"x":{"field":"station"},"y":{"field":"aqi"}},"id":"9283","type":"Text"},{"attributes":{"axis":{"id":"9260"},"band_fill_alpha":0.2,"band_fill_color":"blue","dimension":1,"grid_line_alpha":0.1,"grid_line_color":"gray","ticker":null},"id":"9263","type":"Grid"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"field":"color"},"line_alpha":{"value":0.1},"line_color":{"value":"white"},"top":{"field":"aqi"},"width":{"value":0.7},"x":{"field":"station"}},"id":"9280","type":"VBar"},{"attributes":{"end":300},"id":"9251","type":"Range1d"},{"attributes":{},"id":"9293","type":"Selection"},{"attributes":{},"id":"9264","type":"PanTool"},{"attributes":{"formatter":{"id":"9288"},"ticker":{"id":"9261"}},"id":"9260","type":"LinearAxis"},{"attributes":{"bottom_units":"screen","fill_alpha":0.5,"fill_color":"lightgrey","left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"9270","type":"BoxAnnotation"},{"attributes":{},"id":"9269","type":"HelpTool"},{"attributes":{"data_source":{"id":"9245"},"glyph":{"id":"9283"},"hover_glyph":null,"muted_glyph":null,"view":{"id":"9285"}},"id":"9284","type":"GlyphRenderer"},{"attributes":{"formatter":{"id":"9290"},"ticker":{"id":"9258"}},"id":"9257","type":"CategoricalAxis"},{"attributes":{"align":"center","text":"Air Quality Indices for Dorogozhychi","text_font_size":{"value":"20pt"}},"id":"9247","type":"Title"},{"attributes":{"below":[{"id":"9257"}],"center":[{"id":"9259"},{"id":"9263"}],"left":[{"id":"9260"}],"outline_line_color":null,"plot_height":400,"renderers":[{"id":"9281"},{"id":"9284"}],"sizing_mode":"stretch_both","title":{"id":"9247"},"toolbar":{"id":"9271"},"toolbar_location":null,"x_range":{"id":"9249"},"x_scale":{"id":"9253"},"y_range":{"id":"9251"},"y_scale":{"id":"9255"}},"id":"9246","subtype":"Figure","type":"Plot"},{"attributes":{"data":{"aqi":[19,6,25],"color":["green","green","green"],"station":["Mykhaila Dontsya Street, 2","Mykhaila Hrushevskoho Street, 30","vulicya Vasilya Stusa, 28A"],"text":[19,6,25]},"selected":{"id":"9293"},"selection_policy":{"id":"9292"}},"id":"9245","type":"ColumnDataSource"},{"attributes":{"axis":{"id":"9257"},"band_fill_alpha":0.2,"band_fill_color":"blue","grid_line_alpha":0.1,"grid_line_color":"gray","ticker":null,"visible":false},"id":"9259","type":"Grid"},{"attributes":{"fill_color":{"field":"color"},"line_color":{"value":"white"},"top":{"field":"aqi"},"width":{"value":0.7},"x":{"field":"station"}},"id":"9279","type":"VBar"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"9264"},{"id":"9265"},{"id":"9266"},{"id":"9267"},{"id":"9268"},{"id":"9269"}]},"id":"9271","type":"Toolbar"},{"attributes":{"factors":["Mykhaila Dontsya Street, 2","Mykhaila Hrushevskoho Street, 30","vulicya Vasilya Stusa, 28A"]},"id":"9249","type":"FactorRange"}],"root_ids":["9246"]},"title":"Bokeh Application","version":"2.0.1"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('9382').textContent;
+                  var render_items = [{"docid":"6ff2c241-91c2-41a6-a13c-70915136d120","root_ids":["9246"],"roots":{"9246":"9d784779-aa05-44c9-add7-16778d0ba744"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
